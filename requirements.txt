@@ -1,0 +1,6 @@
+requests==2.25.1
+jpype1
+boto3
+pyyaml
+
+
