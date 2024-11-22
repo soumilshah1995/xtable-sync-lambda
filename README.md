@@ -35,3 +35,9 @@ docker run -p 9000:8080 \
 
 curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{"path":"s3://datalake-demo-1995/config/config.yaml"}'
 ```
+
+### Refenrces 
+* https://github.com/aws-samples/apache-xtable-on-aws-samples
+* https://aws.amazon.com/blogs/big-data/run-apache-xtable-on-amazon-mwaa-to-translate-open-table-formats/
+
+
