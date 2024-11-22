@@ -1,6 +1,12 @@
 # xtable-sync-lambda![Untitled Diagram drawio-2](https://github.com/user-attachments/assets/d196aa87-b2e2-4e45-b0dd-d1e4825a41d3)
 
+
+#### Downlaod Sample Hudi Table
+https://drive.google.com/file/d/1uaSukJCFOvNIE1UygmLGt91G83vAOEz8/view?usp=sharing
+
 # Deploy steps 
+
+
 ```
 nano config.yaml
 ```
