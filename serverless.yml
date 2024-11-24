@@ -1,0 +1,24 @@
+org: soumilshah1995
+service: xtable-sync
+
+provider:
+  name: aws
+  architecture: arm64
+  runtime: python3.8
+  memorySize: 1024
+  timeout: 500
+  ecr:
+    images:
+      appimage:
+        path: ./
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - s3:*
+      Resource:
+        - arn:aws:s3:::*
+
+functions:
+  xtable:
+    image:
+      name: appimage
